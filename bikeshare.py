@@ -201,7 +201,7 @@ def trip_duration_stats(df):
 
 def main():
     
-
+    print("Warning,Be careful with choices")
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
